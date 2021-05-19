@@ -1,0 +1,299 @@
+/*nav bar */
+.navbar {
+    padding-left:50px;
+    margin-bottom:0px;
+    height:130px;
+    background-color: white;
+    color:black;
+}
+/* DEMO example styles for logo image */
+.navbar-brand{
+    position: absolute; 
+    font: bold 40px Calibri,sans-serif;
+    color:black;
+}
+/*nav bar logo */
+nav li{
+    position:absolute;
+    margin-right:50px;
+    margin:0px 15px;
+    margin-top: 60px;
+    font: normal 16px Calibri,sans-serif;    
+}
+
+/*carousel*/
+.carousel-controls{
+ position:relative; 
+  width:100px;
+  margin:0 auto;
+}
+.carousel-indicators{
+   left:200px;
+    bottom: 10px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+    margin: 0px 30px;
+    height:20px;
+    width:20px;
+}
+.carousel-indicators li.active{
+    background-color:#FF7B7B;
+}
+/*carousel*/
+
+/*carouseltitle*/
+#title-1{
+    position:absolute;
+    top:501px;
+    right:-20px   
+}
+#date-2{
+    position:absolute;
+    top:580px;
+    right:-20px;
+}
+.tag-1{
+    float:right; 
+}
+.tag-2{
+    float:right; 
+}   
+.bg-1{
+    background-color:#FFDADA; 
+}
+h1{
+   font: normal 55px Segoe UI,sans-serif;
+    color:black;
+     margin:0px;
+    padding:10px;
+    padding-left:10px;
+    margin-left:10px;
+    text-align:left;
+}
+.bg-2{
+    background-color: #FF7474
+}
+h2{
+   font: normal 30px Segoe UI,sans-serif;
+    color:white;
+    margin:0px;
+    padding:2px;
+}
+/*carousel title*/
+
+/*upcoming event*/
+.image-position{
+    position:relative;
+    padding-top: 100px;
+    padding-bottom:100px;
+    margin-left:-190px;
+    float:left;   
+}
+.bg-3{
+    background-color: #243444   
+}
+.upcoming{
+    position:relative;
+    padding-top:100px;
+    padding-bottom:90px;
+    margin-right:-300px;
+    margin-left:30px;
+   color:white
+} 
+h3{
+    font:normal 50px SimSun-ExtB, serif;
+    padding-bottom:30px;
+}
+#Dates{
+   font:bold 30px Segoe UI, sans-serif;
+   padding-bottom: 30px; 
+}
+#Infos{
+   font:normal 24px SimSun-ExtB, serif;
+    padding-bottom: 50px; 
+    text-align:left;   
+}
+.btn-1{
+    background-color:transparent;
+    border: 2px solid white;
+    font:bold 15px Segoe UI, sans-serif;
+    color:white;
+    text-align: center;
+}
+.arrow-down {
+  width: 150px;
+    height: 150px;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 150px solid #243444;
+    float:right;
+    margin-right: 10px;
+}
+/*upcoming event*/
+
+/*what's on*/
+#whaton{
+    background-color:#FFBC58;
+    padding:20px;
+}
+h4{
+   font:bold 40px SimSun-ExtB, serif;
+    text-align:left;
+    padding-left: 100px;
+    margin: 25px;
+}
+
+/* images */
+#ExhibitionImage{
+    position:relative;
+    height:450px;
+    left:90px;
+    width:550px;
+}
+#EventImage{
+    position:relative;
+    top: -200px;
+    left: 20px;
+    height:450px;
+    width:550px;
+}
+#MarketImage{
+    position:relative;
+    float:right;
+    top: 40px;
+    right:20px;
+    height:450px;
+    width:550px;    
+}
+#CafeImage{
+    position:relative;
+    float:right;
+    top: -150px;
+    right:150px;
+    height:450px;
+    width:550px;
+}
+
+/* Text Block */
+.text-block {
+  position: absolute;
+  top:0px;
+  left: 500px;
+  bottom: 0px;
+  padding-right:10px;
+  padding-left:20px;
+    height:450px;
+  background: rgba(255, 255, 255, 0.87);
+  color: black; 
+}
+.text-block-1{
+  position: absolute;
+  top:-200px;
+  left: 410px;
+  bottom: 0px;
+  padding-right:0px;
+  padding-left:30px;
+    height:450px;
+  background: rgba(255, 255, 255, 0.87);
+  color: black;    
+}
+.text-block-2{
+  position: absolute;
+  top:40px;
+  left: 0px;
+  right:430px;
+  bottom: 0px;
+  padding-right:0px;
+  padding-left:50px;
+  height:450px;
+  background: rgba(255, 255, 255, 0.87);
+  color: black;   
+}
+.text-block-3{
+  position: absolute;
+  top:-150px;
+  left: -130px;
+  right:520px;
+  bottom: 0px;
+  padding-right:0px;
+  padding-left:50px;
+  height:450px;
+  background: rgba(255, 255, 255, 0.87);
+  color: black;   
+}
+
+/* text */
+#title{
+    font: bold 30px Segoe UI, sans-serif;
+    padding:20px;
+    padding-right: 80px;
+    padding-left:0px;
+}
+#paragraph{
+    font: normal 25px SimSun-ExtB, serif;
+    padding-bottom:10px;
+}
+
+/* rectagle block */
+.rectangle-1 {
+  height: 450px;
+  width: 100px;
+  background-color: #3D6B23;
+  float:right; 
+}
+.rectangle-2 {
+  position:relative;
+  top:-150px;
+  height: 450px;
+  width: 100px;
+  background-color: #23326B;
+  float:left; 
+}
+.rectangle-3 {
+  position:relative;
+  top:200px;
+  height: 100px;
+  width: 850px;
+  background-color: #F25948;
+  float:bottom;
+}
+/*what's on*/
+
+/*About us*/
+.bg-5{
+    background-image:url(images/168-FAC-Bazaar-141205-Jessica-Wyld.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:683px;
+    width:auto;
+}
+.text-block-4{
+  position: relative;
+  float:right;
+  left:220px;
+  padding:50px;
+  padding-right:50px;
+  padding-left:50px;
+  width: 650px;
+  height:683px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;     
+}
+h6{
+    font: bold 35px SimSun-ExtB, serif;
+    padding:40px;
+    padding-left:0px;
+    padding-top:0px;
+    color:#43B4A9;
+}
+#about-p{
+    font: normal 20px SimSun-ExtB, serif;
+    padding-bottom: 100px;
+}
+.btn-2{
+    background-color:transparent;
+    border: 2px solid #43B4A9;
+    font:bold 15px Segoe UI, sans-serif;
+    color:#43B4A9;
+    text-align: center;    
+}
