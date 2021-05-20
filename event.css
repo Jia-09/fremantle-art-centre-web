@@ -1,0 +1,45 @@
+/*nav bar */
+.navbar {
+    padding-left:50px;
+    margin-bottom:0px;
+    height:130px;
+    background-color: white;
+    color:black;
+}
+/* DEMO example styles for logo image */
+.navbar-brand{
+    position: absolute; 
+    font: bold 40px Calibri,sans-serif;
+    color:black;
+}
+/*nav bar logo */
+nav li{
+    position:absolute;
+    margin-right:50px;
+    margin:0px 15px;
+    margin-top: 60px;
+    font: normal 16px Calibri,sans-serif;    
+}
+
+.rectangle{
+    background-color: #FFBC58;
+    height:20px;
+    width:auto;
+}
+
+h1{
+    font: bold 105px SimSun-ExtB, serif;
+    padding-bottom:50px; 
+}
+.image-responsive{
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:920px;
+    height:auto;
+}
+.text-block{
+    position:relative;
+    top:75px;
+    padding:150px;
+    background-color:antiquewhite;
+}
