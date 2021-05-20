@@ -1,0 +1,83 @@
+/*nav bar */
+.navbar {
+    padding-left:50px;
+    margin-bottom:0px;
+    height:130px;
+    background-color: white;
+    color:black;
+}
+/* DEMO example styles for logo image */
+.navbar-brand{
+    position: absolute; 
+    font: bold 40px Calibri,sans-serif;
+    color:black;
+}
+/*nav bar logo */
+nav li{
+    position:absolute;
+    margin-right:50px;
+    margin:0px 15px;
+    margin-top: 60px;
+    font: normal 16px Calibri,sans-serif;    
+}
+
+h1{
+    font: bold 105px SimSun-ExtB, serif;
+    padding-bottom:50px; 
+}
+h2{
+   font: bold 80px SimSun-ExtB, serif; 
+}
+
+.rectangle{
+    background-color: #FFBC58;
+    height:20px;
+    width:auto;
+}
+
+.text-block{
+  position: relative;
+  float:center;
+  top:-450px;
+  padding-top:40px;
+  padding-bottom:70px;
+  padding-right:50px;
+  padding-left:50px;
+  background: rgba(255, 255, 255, 0.80);
+  color: black;     
+}
+
+.text-block-1{
+  position:relative;
+  top:-450px;
+  padding:20px;
+  padding-right:50px;
+  padding-left:40px;
+  background: rgba(255, 255, 255, 0.80);
+  color: black; 
+}
+
+h3{
+    font: normal 70px SimSun-ExtB, serif;
+    padding:40px;
+    padding-left:0px;
+    padding-top:0px;
+    color:black;
+}
+#date{
+    font: bold 30px Segoe UI, sans-serif;
+    bottom:40px; 
+}
+.btn-1{
+    position:relative;
+    float:left;
+    background-color:transparent;
+    border: 2px solid #8C1F98;
+    font:bold 15px Segoe UI, sans-serif;
+    color:#8C1F98;
+    text-align: center;    
+}
+
+#tag{
+    font: normal 25px Segoe UI, sans-serif;
+}
