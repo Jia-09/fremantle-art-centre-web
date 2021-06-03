@@ -26,6 +26,9 @@ h1{
     padding-bottom:50px; 
 }
 h2{
+    background-color:#918DFF;
+    padding: 10px;
+    color:white;
    font: bold 80px SimSun-ExtB, serif; 
 }
 
@@ -35,18 +38,24 @@ h2{
     width:auto;
 }
 
+
+
+.image-responsive{
+    float:inherit;
+    width:100%;
+}
+
 .text-block{
   position: relative;
   float:center;
   top:-450px;
   padding-top:40px;
-  padding-bottom:70px;
-  padding-right:50px;
-  padding-left:50px;
+  padding-bottom:80px;
+  padding-right:0px;
+  padding-left:20px;
   background: rgba(255, 255, 255, 0.80);
   color: black;     
 }
-
 .text-block-1{
   position:relative;
   top:-450px;
@@ -80,4 +89,18 @@ h3{
 
 #tag{
     font: normal 25px Segoe UI, sans-serif;
+}
+
+/*footer*/
+footer{
+    background-color:black;
+    padding:30px;
+}
+.footer{
+    font: white;
+}
+
+h7{
+   font:bold 30px Segoe UI, sans-serif;
+   color:#7DE2D8 
 }
