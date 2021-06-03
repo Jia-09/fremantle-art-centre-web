@@ -21,25 +21,207 @@ nav li{
     font: normal 16px Calibri,sans-serif;    
 }
 
+
+/*rectangle*/
 .rectangle{
     background-color: #FFBC58;
     height:20px;
     width:auto;
 }
-
 h1{
     font: bold 105px SimSun-ExtB, serif;
     padding-bottom:50px; 
 }
+
+/*image*/
 .image-responsive{
-    background-size:cover;
-    background-repeat: no-repeat;
-    width:920px;
-    height:auto;
+    float:left;
+    width:60%;
+    border: 2px solid black;
 }
+.image-responsive-1{
+    float:right;
+    width:60%;
+    border: 2px solid black;
+}
+
+/*text-blocks*/
+
 .text-block{
-    position:relative;
-    top:75px;
-    padding:150px;
-    background-color:antiquewhite;
+ position:relative;
+    float:left;
+    width:100%;
+    padding:60px;
+    background-color:#8DFFC6;
 }
+.text-block-1{
+    position:relative;
+    float:right;
+    width:100%;
+    padding:60px;
+    background-color:#FFE98F;
+    
+}
+.text-block-2{
+     position:relative;
+    float:left;
+    width:100%;
+    padding:60px;
+  background-color:#FF7591;
+  
+}
+.text-block-3{
+   position:relative;
+    float:right;
+    width:100%;
+    padding:60px;
+    background-color:#918DFF;
+}
+.text-block-4{
+   position:relative;
+    float:left;
+    width:100%;
+    padding:60px;
+    background-color:#FEA279;
+}
+
+/*Text*/
+h2{
+    font:bold 55px SimSun-ExtB, serif;
+    padding-bottom:10px
+}
+#Dates{
+   font:bold 30px Segoe UI, sans-serif;
+   padding-bottom: 20px; 
+}
+#Infos{
+   font:normal 20px Segoe UI, serif;
+    padding-bottom: 25px; 
+    text-align:left;  
+    
+}
+.btn-1{
+    background-color:transparent;
+    border: 2px solid black;
+    font:bold 20px Segoe UI, sans-serif;
+    color:black;
+    text-align: center;
+}
+
+/*footer*/
+footer{
+    background-color:black;
+    padding:30px;
+}
+.footer{
+    font: white;
+}
+h7{
+   font:bold 30px Segoe UI, sans-serif;
+   color:#7DE2D8 
+}
+
+
+
+@media only screen and (max-width:2100px){
+    .image-responsive{
+        margin-bottom:50px;
+    }
+    .image-responsive-1{
+        margin-bottom:50px;
+    }  
+    .text-block {
+        margin-top:150px;
+    }
+    .text-block-1{
+        margin-top:120px;
+    }
+    .text-block-2{
+        margin-top:150px;
+    }
+    .text-block-3{
+      margin-top:120px;
+    }
+    .text-block-4{
+        margin-top:140px;
+         margin-bottom:30px;
+    }
+    
+    
+    @media only screen and (max-width:1600px){
+          .image-responsive{
+        margin-bottom:50px;
+    }
+    .image-responsive-1{
+        margin-bottom:50px;
+    }  
+    .text-block {
+        margin-top:60px;
+    }
+    .text-block-1{
+        margin-top:35px;
+    }
+    .text-block-2{
+        margin-top:60px;
+    }
+    .text-block-3{
+      margin-top:40px;
+    }
+    .text-block-4{
+        margin-top:50px;
+         margin-bottom:30px;
+    }
+    
+    
+@media only screen and (max-width:1200px){
+    h1{
+        font: bold 80px SimSun-ExtB, serif;
+    }
+.image-responsive{
+        margin-bottom:0px;
+    
+    }
+    .image-responsive-1{
+        margin-top:0px;
+    }
+     .text-block{
+        margin-top:0px;
+    }
+    .text-block-1{
+        margin-top:30px;
+    }
+     .text-block-2{
+         margin-top:0px;
+    }
+    .text-block-3{
+        margin-top:30px;
+    }
+     .text-block-4{
+         margin-top:0px;
+         margin-bottom:30px;
+    }
+        }
+        
+@media only screen and (max-width:500px){
+    h1{
+        font: bold 50px SimSun-ExtB, serif;
+    }
+    h2{
+    font:bold 30px SimSun-ExtB, serif;
+}
+#Dates{
+   font:bold 20px Segoe UI, sans-serif;
+
+}
+#Infos{
+   font:normal 15px SimSun-ExtB, serif;
+    
+}
+.btn-1{
+    font:bold 10px Segoe UI, sans-serif;
+
+}
+        }
+    
+   
+
