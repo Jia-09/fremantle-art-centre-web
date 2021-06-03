@@ -83,11 +83,8 @@ h2{
 
 /*upcoming event*/
 .image-position{
-    position:relative;
-    padding-top: 100px;
-    padding-bottom:100px;
-    margin-left:-190px;
-    float:left;   
+    float:left;
+    width:60%;
 }
 .bg-3{
     background-color: #243444   
@@ -296,4 +293,88 @@ h6{
     font:bold 15px Segoe UI, sans-serif;
     color:#43B4A9;
     text-align: center;    
+}
+
+/*footer*/
+footer{
+    background-color:black;
+    padding:30px;
+}
+.footer{
+    font: white;
+}
+
+h7{
+   font:bold 30px Segoe UI, sans-serif;
+   color:#7DE2D8 
+}
+
+
+@media only screen and (max-width:2100px){
+    
+.image-position{
+    margin-top:50px;
+}
+    .tag-1{
+        margin-top:140px;
+    }
+    .tag-2{
+        margin-top:150px;
+    }
+}
+@media only screen and (max-width:1600px){
+  .image-position{
+    margin-top:50px;
+}
+    .tag-1{
+        margin-top:0px;
+    }
+    .tag-2{
+        margin-top:10px;
+    }
+}  
+
+@media only screen and (max-width:1200px){
+   .image-position{
+    margin-top:50px;
+}
+    .tag-1{
+        margin-top:-100px;
+    }
+    .tag-2{
+        margin-top:-100px;
+    }
+}  
+@media only screen and (max-width:800px){
+     h1{
+        font: normal 35px Segoe UI,sans-serif;
+    }  
+    h2{
+       font: normal 25px Segoe UI,sans-serif; 
+    }   
+  
+        .tag-1{
+        margin-top:-280px;
+    }
+    .tag-2{
+        margin-top:-300px;
+    }
+}
+} 
+@media only screen and (max-width:600px){
+    .image-position{
+    margin-top:50px;
+}
+    h1{
+        font: normal 25px Segoe UI,sans-serif;
+    }  
+    h2{
+       font: normal 15px Segoe UI,sans-serif; 
+    }
+        .tag-1{
+        margin-top:-370px;
+    }
+    .tag-2{
+        margin-top:-400px;
+    }
 }
